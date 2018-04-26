@@ -34,9 +34,9 @@ public class MergeSort {
             helper[i] = values[i];
         }
 
-        int i = low;
-        int j = middle + 1;
-        int k = low; //index to fill array
+        int i = low; //lowStart
+        int j = middle + 1;  // highStart
+        int k = low; //   INDEX -> to fill Orignal array
 
         // Copy the smallest values from either the left or the right side back to the original array
         while (i <= middle && j <= high) {

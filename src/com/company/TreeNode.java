@@ -3,10 +3,10 @@ package com.company;
 public class TreeNode{
 
     int val;
-    TreeNode leftChild;
-    TreeNode rightChild;
+    TreeNode left;
+    TreeNode right;
     TreeNode(  TreeNode leftChild,  TreeNode rightChild){
-        this.leftChild = leftChild;
-        this.rightChild = rightChild;
+        this.left = left;
+        this.right = right;
     }
 }
