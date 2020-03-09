@@ -35,20 +35,6 @@ public class RemoveDupLL {
         }
     }
 
-    public static void removeDuplicate(ListNode root) {
-        ListNode curr = root;
-        while(curr != null ){
-            if(curr.next == null){
-                break;
-            }
-            if(curr.val == curr.next.val){
-                curr.next = curr.next.next;
-            }else{
-                // only increment current value if unique
-                curr = curr.next;
-            }
-        }
-    }
 
     public static void printList(ListNode root) {
         while(root != null){
